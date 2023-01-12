@@ -17,8 +17,7 @@
         font-family: 'Sofia Sans', sans-serif;
     }
 
-    .header {
-    }
+    .header {}
 
     .header--nav-container {
         display: flex;
@@ -35,27 +34,84 @@
 
     button {
         height: 50px;
-        padding:0px 20px;
+        padding: 0px 20px;
         font-weight: bold;
     }
-    .header--nav-btn1{
+
+    .header--nav-btn1 {
         background-color: #0062e5;
         color: white;
         border-radius: 8px;
-        
+
     }
-    .header--nav-btn2{
+
+    .header--nav-btn2 {
         background-color: #000;
         color: white;
         border-radius: 8px;
-        border:1px solid white;
+        border: 1px solid white;
     }
-    .header--nav-btn2:hover{
+
+    .header--nav-btn2:hover {
         background-color: #fff;
         color: black;
     }
 
 
+    .section--container {
+        text-align: center;
+        background-color: #040714;
+        color: white;
+    }
+
+    .section-title {
+        font-size: 30px;
+        margin-bottom: 40px
+    }
+
+    .plans--container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .plan1--container {
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    .plan--img {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+    .plan--price {
+        margin-bottom: 20px
+    }
+
+    .plan--subtitle {
+        font-size: 24px;
+        color: white;
+        margin-bottom: 30px
+    }
+
+    .plan2--container {
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    .plan3--container {
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    .plan--btn {
+        background-color: #6421ff;
+        color: white;
+        padding: 20px;
+        width: 100%;
+        border: none;
+        border-radius: 8px
+    }
 </style>
 
 <body>
@@ -70,6 +126,40 @@
 
         </nav>
     </header>
+    <section class='section--container'>
+        <h1 class="section-title">Choose your plan</h1>
+        <div class="plans--container">
+            <div class="plan1--container">
+                <img class=plan--img
+                    src="https://cnbl-cdn.bamgrid.com/assets/6d0514420af1aa17883ea433aeab05eeefb1ea60fdc9185c2c182d0c92273435/original"
+                    alt="">
+                <h2 class="plan--price">COP 23.900/mes*</h2>
+                <p class="plan--subtitle">With Disney+ stream the latest releases that come from the cinema, originals
+                    and classics.</p>
+                <button class="plan--btn">SIGN UP NOW</button>
+            </div>
+            <div class="plan2--container">
+                <img class=plan--img
+                    src="https://cnbl-cdn.bamgrid.com/assets/6d0514420af1aa17883ea433aeab05eeefb1ea60fdc9185c2c182d0c92273435/original"
+                    src="" alt="">
+                <h2 class="plan--price">COP 23.900/mes*</h2>
+                <p class="plan--subtitle">With Disney+ stream the latest releases that come from the cinema, originals
+                    and classics.</p>
+                <button class="plan--btn">SIGN UP NOW</button>
+            </div>
+            <div class="plan3--container">
+                <img class=plan--img
+                    src="https://cnbl-cdn.bamgrid.com/assets/6d0514420af1aa17883ea433aeab05eeefb1ea60fdc9185c2c182d0c92273435/original"
+                    alt="">
+                <h2 class="plan--price">COP 23.900/mes*</h2>
+                <p class="plan--subtitle">With Disney+ stream the latest releases that come from the cinema, originals
+                    and classics.</p>
+                <button class="plan--btn">SIGN UP NOW</button>
+            </div>
+
+        </div>
+
+    </section>
 
 </body>
 
