@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Sofia Sans', sans-serif;
+    }
+
+    .container {
+        padding: 10px;
+        background-color: #040714;
+        height: 50px;
+        align-items: center;
+    }
+
+    .container--ul {
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    li {
+        list-style: none;
+        color: white
+    }
+
+    .container--img {
+        width: 100px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    .btn1 {
+        background-color: #7828FF;
+        color: white;
+        font-weight: bold;
+    }
+
+    .btn2 {
+        background-color: #000;
+        color: white;
+        font-weight: bold;
+        opacity: 0.5;
+        border: 1px solid white;
+    }
+
+    .btn2:hover {
+        background-color: #fff;
+        color: black;
+
+    }
+</style>
+
+<body>
+    <nav class="container">
+        <ul class="container--ul">
+            <img class="container--img" src="img/original.svg" alt="" srcset="">
+            <div>
+                <button type="button" class="btn1">Suscribete</button>
+                <button type="button" class="btn2">Inicia sesión</button>
+            </div>
+
+        </ul>
+    </nav>
+</body>
+
+</html>
