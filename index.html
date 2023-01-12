@@ -18,36 +18,54 @@
     }
 
     .header {
-        border: 1px solid red
     }
 
     .header--nav-container {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 100px;
+        height: 80px;
         background-color: #040714
     }
 
     .header--nav-img {
         width: 100px;
         height: 50px;
-        border: 1px solid blue
     }
 
     button {
-        height: 50px
+        height: 50px;
+        padding:0px 20px;
+        font-weight: bold;
     }
+    .header--nav-btn1{
+        background-color: #0062e5;
+        color: white;
+        border-radius: 8px;
+        
+    }
+    .header--nav-btn2{
+        background-color: #000;
+        color: white;
+        border-radius: 8px;
+        border:1px solid white;
+    }
+    .header--nav-btn2:hover{
+        background-color: #fff;
+        color: black;
+    }
+
+
 </style>
 
 <body>
 
     <header class="header">
         <nav class="header--nav-container">
-            <img class="header--nav-img" src="" alt="">
+            <img class="header--nav-img" src="/img/original.svg" alt="">
             <div>
-                <button class="header--nav-btn1">Suscribete</button>
-                <button class="header--nav-btn1">Inicia Sesión</button>
+                <button class="header--nav-btn1">SIGN UP NOW</button>
+                <button class="header--nav-btn2">LOG IN</button>
             </div>
 
         </nav>
