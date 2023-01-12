@@ -17,65 +17,42 @@
         font-family: 'Sofia Sans', sans-serif;
     }
 
-    .container {
-        padding: 10px;
-        background-color: #040714;
-        height: 50px;
-        align-items: center;
+    .header {
+        border: 1px solid red
     }
 
-    .container--ul {
+    .header--nav-container {
         display: flex;
         justify-content: space-around;
-
-
+        align-items: center;
+        height: 100px;
+        background-color: #040714
     }
 
-    li {
-        list-style: none;
-        color: white
-    }
-
-    .container--img {
+    .header--nav-img {
         width: 100px;
+        height: 50px;
+        border: 1px solid blue
     }
 
     button {
-        padding: 10px;
-    }
-
-    .btn1 {
-        background-color: #7828FF;
-        color: white;
-        font-weight: bold;
-    }
-
-    .btn2 {
-        background-color: #000;
-        color: white;
-        font-weight: bold;
-        opacity: 0.5;
-        border: 1px solid white;
-    }
-
-    .btn2:hover {
-        background-color: #fff;
-        color: black;
-
+        height: 50px
     }
 </style>
 
 <body>
-    <nav class="container">
-        <ul class="container--ul">
-            <img class="container--img" src="img/original.svg" alt="" srcset="">
+
+    <header class="header">
+        <nav class="header--nav-container">
+            <img class="header--nav-img" src="" alt="">
             <div>
-                <button type="button" class="btn1">Suscribete</button>
-                <button type="button" class="btn2">Inicia sesión</button>
+                <button class="header--nav-btn1">Suscribete</button>
+                <button class="header--nav-btn1">Inicia Sesión</button>
             </div>
 
-        </ul>
-    </nav>
+        </nav>
+    </header>
+
 </body>
 
 </html>
