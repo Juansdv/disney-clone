@@ -76,7 +76,6 @@
     }
 
     .plan1--container {
-        max-width: 400px;
         padding: 20px;
     }
 
@@ -96,12 +95,10 @@
     }
 
     .plan2--container {
-        max-width: 400px;
         padding: 20px;
     }
 
     .plan3--container {
-        max-width: 400px;
         padding: 20px;
     }
 
@@ -116,70 +113,84 @@
 
 
     .main--container {
-  margin-top: 50px ;
-  height: 100% ;
-   Text-align: center;
-  background-color: #040714;
- color: white;
-}
+        margin-top: 50px;
+        height: 100%;
+        Text-align: center;
+        background-color: #040714;
+        color: white;
+    }
 
-.title {
-    font-size: 30px;
-    margin-bottom: 50px;
-    font-weight: bold;
-}
+    .title {
+        font-size: 30px;
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
 
 
-.devices--container{
-  display: flex;
-  justify-content: space-around;
-}
+    .devices--container {
+        display: flex;
+        justify-content: space-around;
+    }
 
-.device1--container {
-  height: 600px ;
-  width: 300px;
-  font-weight: bold;
-}
+    .device1--container {
+    
+        font-weight: bold;
+    }
 
-.device2--container {
-  height: 300px ;
-  width: 300px;
-  font-weight: bold;
-}
+    .device2--container {
+       
+        font-weight: bold;
+    }
 
-.device3--container {
-  width: 300x ;
-  font-weight: bold;
-}
+    .device3--container {
+        font-weight: bold;
+    }
 
-.device4--container {
-  width: 300px;
-  font-weight: bold;
-}
+    .device4--container {
+        font-weight: bold;
+    }
 
-.device1--img {
-  width: 250px;
-}
+    .device1--img {
+        width: 250px;
+    }
 
-.device2--img {
-  width: 250px;
-}
+    .device2--img {
+        width: 250px;
+    }
 
-.device3--img {
-  width: 250px;
-}
+    .device3--img {
+        width: 250px;
+    }
 
-.device4--img {
-  width:250px ;
-}
+    .device4--img {
+        width: 250px;
+    }
 
-.device--title {
-    margin-bottom: 20px;
-}
+    .device--title {
+        margin-bottom: 20px;
+    }
 
-.device--tipe{
-    margin-bottom: 10px;
-}
+    .device--tipe {
+        margin-bottom: 10px;
+    }
+
+
+    @media screen and (max-width: 375px) {
+        .header--nav-btn1{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 601px) {
+        .header--nav-btn1{
+            display: none;
+        }
+        .plans--container {
+            display: block;
+        }
+        .devices--container{
+            display: block;
+        }
+    }
 </style>
 
 <body>
