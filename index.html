@@ -20,6 +20,11 @@
 
     .header {}
 
+    .wrapper {
+        max-width: 1024px;
+        margin: 0px auto;
+    }
+
     .header--nav-container {
         display: flex;
         justify-content: space-around;
@@ -276,7 +281,8 @@
         }
 
         .view--text {
-            width: 100% ;
+            width: 85% ;
+            margin-left: 30px;
         }
 
         .view--title {
@@ -332,63 +338,66 @@
             </div>
 
         </nav>
-    </header>
-    <section class='section--container'>
-        <h1 class="section-title">Choose your plan</h1>
-        <div class="plans--container">
-            <div class="plan1--container">
-                <img class=plan--img
-                    src="https://cnbl-cdn.bamgrid.com/assets/6d0514420af1aa17883ea433aeab05eeefb1ea60fdc9185c2c182d0c92273435/original"
-                    alt="">
-                <h2 class="plan--price">COP 23.900/mes*</h2>
-                <p class="plan--subtitle">With Disney+ stream the latest releases that come from the cinema, originals
-                    and classics.</p>
-                <button class="plan--btn">SIGN UP NOW</button>
+    </header> 
+    <div class="wrapper">
+        <section class='section--container'>
+            <h1 class="section-title">Elige tu plan</h1>
+            <div class="plans--container">
+                <div class="plan1--container">
+                    <img class=plan--img
+                        src="//cnbl-cdn.bamgrid.com/assets/1c972e7d40ab087035b01ff104cf40efa4cf804b0e817e93b4bc00f0c72cf276/original"
+                        alt="">
+                    <h2 class="plan--price">COP 23.900/month*</h2>
+                    <p class="plan--subtitle">En Disney+ vas a encontrar los últimos estrenos del cine, originales y clásicos inolvidables.</p>
+                    <button class="plan--btn">SUSCRÍBETE AHORA</button>
+                </div>
+                <div class="plan2--container">
+                    <img class=plan--img
+                        src="//cnbl-cdn.bamgrid.com/assets/551da487c372e19edf47cde71d0b9b339164808f310cdc7f9f46bb482d725323/original"
+                        src="" alt="">
+                    <h2 class="plan--price">COP 38.900/month*</h2>
+                    <p class="plan--subtitle">Contrata Disney+ y Star+ juntos. Ahorra y disfruta ahora los dos servicios por un precio único.</p>
+                    <button class="plan--btn">SUSCRÍBETE AHORA</button>
+                </div>
+                <div class="plan3--container">
+                    <img class=plan--img
+                        src="https://cnbl-cdn.bamgrid.com/assets/6d0514420af1aa17883ea433aeab05eeefb1ea60fdc9185c2c182d0c92273435/original"
+                        alt="">
+                    <h2 class="plan--price">COP 49.900/month*</h2>
+                    <p class="plan--subtitle">Disney+, Star+ y LIONSGATE+ en un único plan. Compra ahora los tres servicios juntos.</p>
+                    <button class="plan--btn">SUSCRÍBETE AHORA</button>
+                </div>
+    
             </div>
-            <div class="plan2--container">
-                <img class=plan--img
-                    src="https://cnbl-cdn.bamgrid.com/assets/6d0514420af1aa17883ea433aeab05eeefb1ea60fdc9185c2c182d0c92273435/original"
-                    src="" alt="">
-                <h2 class="plan--price">COP 23.900/mes*</h2>
-                <p class="plan--subtitle">With Disney+ stream the latest releases that come from the cinema, originals
-                    and classics.</p>
-                <button class="plan--btn">SIGN UP NOW</button>
+    
+        </section>
+    </div>
+    
+
+    <div class="wrapper">
+        <section class="main--view">
+
+            <div class="example--page">
+    
+                <div class="view--image">
+                    <img class="image--view"
+                        src="//cnbl-cdn.bamgrid.com/assets/dae41e464f90a537d55064a1609a99890fb93a408af955519dbe9992e0ab3a04/original"
+                        alt="">
+                </div>
+    
+                <div class="view--text">
+                    <h1 class="view--title">Cuando quieras, donde quieras</h1>
+                    <p class="view--text2">Disfrútalo en tu pantalla favorita, ya sea tu TV, tableta, computadora, teléfono y otros. Vive una experiencia única con una amplia selección de títulos en 4K. Además, puedes ver en cuatro pantallas en simultáneo para que nadie se quede afuera.</p>
+                </div>
             </div>
-            <div class="plan3--container">
-                <img class=plan--img
-                    src="https://cnbl-cdn.bamgrid.com/assets/6d0514420af1aa17883ea433aeab05eeefb1ea60fdc9185c2c182d0c92273435/original"
-                    alt="">
-                <h2 class="plan--price">COP 23.900/mes*</h2>
-                <p class="plan--subtitle">With Disney+ stream the latest releases that come from the cinema, originals
-                    and classics.</p>
-                <button class="plan--btn">SIGN UP NOW</button>
-            </div>
-
-        </div>
-
-    </section>
+        </section>
+    </div>
+    
 
 
-    <section class="main--view">
 
-        <div class="example--page">
-
-            <div class="view--image">
-                <img class="image--view"
-                    src="//cnbl-cdn.bamgrid.com/assets/dae41e464f90a537d55064a1609a99890fb93a408af955519dbe9992e0ab3a04/original"
-                    alt="">
-            </div>
-
-            <div class="view--text">
-                <h1 class="view--title">Cuando quieras, donde quieras</h1>
-                <p class="view--text2">Disfrútalo en tu pantalla favorita, ya sea tu TV, tableta, computadora, teléfono
-                    y otros. Vive una experiencia única con una amplia selección de títulos en 4K. Además, puedes ver en
-                    cuatro pantallas en simultáneo para que nadie se quede afuera.</p>
-            </div>
-        </div>
-    </section>
-
-
+   
+    <div class="wrapper">
     <section class="main--container">
 
         <h1 class="title">Disponible en tus dispositivos favoritos</h1>
@@ -436,7 +445,7 @@
                 <img class="device4--img"
                     src="https://cnbl-cdn.bamgrid.com/assets/66475056e769443ef9a491a48dfa44059c8964890ae9ef7c4f69f322693c59d8/original"
                     alt="">
-                <h2 class="device--title">Celulares y tablets</h2>
+                <h2 class="device--title">Moviles y Tablets</h2>
                 <p class="device--tipe">Tabletas Amazon Fire
                     Celulares y tabletas Android
                     iPhone y iPad</p>
@@ -447,12 +456,14 @@
         </div>
 
     </section>
+</div>
 
+    <div class="wrapper">
     <section>
     
         <div class="questions--container">
             
-          <h1 class="questions--title">Preguntas frecuentes</h1>
+          <h1 class="questions--title">Preguntas Frecuentes</h1>
           
           <div class="questions--buttons">
             
@@ -503,6 +514,7 @@
             </div>
           </div>
       </section>
+    </div>
 
 </body>
 
