@@ -38,7 +38,7 @@
         height: 50px;
     }
 
-    button {
+    .button-login {
         height: 50px;
         padding: 0px 20px;
         font-weight: bold;
@@ -396,6 +396,53 @@
   margin: 0px auto;
 }
 
+.footer {
+ background-color: #040714;
+ margin-top: 100px;
+ margin-bottom: 50px;
+}
+
+.footer-img-container {
+  text-align: center;
+}
+
+#footer-img {
+  width: 10%;
+}
+
+.footer-pagin-services {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.services-text {
+  text-decoration: none;
+  color: #D2CFD4;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.button-services {
+  background-color: #040714;
+  color: #D2CFD4;
+  border: none;
+}
+
+.disney-details-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.policy-text:hover {
+  color: white;
+}
+
+.button-footer:hover {
+  text-decoration: underline;
+}
+
 
 
     @media screen and (max-width: 375px) {
@@ -579,8 +626,8 @@
                 <div>
             </a>
             <div>
-                <button class="header--nav-btn1">SIGN UP NOW</button>
-                <button class="header--nav-btn2">LOG IN</button>
+                <button class="header--nav-btn1 button-login">SIGN UP NOW</button>
+                <button class="header--nav-btn2 button-login">LOG IN</button>
             </div>
 
         </nav>
@@ -894,6 +941,40 @@
           </div>
       </section>
     </div>
+
+    <div class="wrapper">
+    <footer class="footer">
+   
+      <div class="footer-img-container">
+        <img id="footer-img" src="//cnbl-cdn.bamgrid.com/assets/7ecc8bcb60ad77193058d63e321bd21cbac2fc67281dbd9927676ea4a4c83594/original" alt="">
+      </div>
+      
+      <div class="footer-pagin-services">
+        
+        <button class="button-services policy-text button-footer services-text">Español</button>
+        
+        <a class="services-text policy-text" href="">Términos de Uso</a>
+        <a class="services-text policy-text" href="">Política de privacidad</a>
+     <a class="services-text policy-text" href="">Complemento política de privacidad</a>
+    <a class="services-text policy-text" href="">Publicidad Personalizada</a>
+    <a class="services-text policy-text" href="">Dispositivos compatibles</a> 
+     <a class="services-text policy-text" href="">Ayuda</a>
+      </div>
+      
+      <div class="disney-details-container">
+   <a class="services-text" href="">Acerca de Disney+</a>
+      </div>
+      
+      <div class="disney-details-container">
+        <p class="services-text">© 2023 Disney y su familia de compañías afiliadas. Todos los derechos reservados.</p>
+      </div>
+      
+      <div class="disney-details-container">
+        <p class="services-text">Disney+ es un servicio por suscripción de pago, su contenido está sujeto a disponibilidad. El servicio Disney+ es comercializado por The Walt Disney Company Colombia S.A, <br> Calle 90 No. 19A – 46, Piso 5, Bogotá D.C. y número de NIT es 800.236.937-1</p>
+      </div>
+      
+    </footer>
+  </div>
 
 </body>
 
