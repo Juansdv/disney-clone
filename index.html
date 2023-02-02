@@ -213,47 +213,91 @@
     }
 
 
-    .questions--container {
-  display:block;
-   background-color: #040714
+
+
+
+    
+.questions--main-container{
+  background-color: #040714;
 }
 
-.questions--title {
+.questions--container-title {
+  font-weight: bold;
+  font-size: 35px;
   text-align: center;
   color: white;
-  font-size: 55px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
-.button--questions1 {
-  width: 80%;
-  margin: 0px auto;
-  display: flex;
-  justify-content: space-between;
-  height: 70px;
-  margin-top: 15px;
+.questions--buttons-container {
+  display:block;
+}
+
+.questions--buttons {
   background-color: #13151D;
   color: white;
-  border: none;
-} 
-
-.text--button1-2 {
   font-size: 30px;
-  margin-top: 15px;
-  margin-right: 15px; 
-  background-color: #13151D;
+  padding: 30px;
+  width: 80%;
+  margin: 40px auto;
+  cursor: pointer;
 }
 
-.text--button1 {
+
+
+
+#questions--button1 , #questions--button2 , #questions--button3 , #questions--button4 {
+  cursor: pointer;
+   display: none;
+}
+
+.question--button-text {
+  display:flex;
+  justify-content: space-between;
+  font-weight: bold;
+  cursor:pointer;
+  background-color: transparent;
+}
+
+.questions--button-sign {
+  font-weight: bold;
+  font-size: 38px;
+  background-color: transparent;
+}
+
+
+.questions--button-content {
+  background-color: #13151D;
+  color: white;
+  font-size: 30px;
+  width: 80%;
+  padding: 30px;
+  margin: 0px auto;
+  height: 100%;
+  display: none;
+
+}
+
+.questions--button-list-content {
+  font-size: 22px;
   margin: 20px;
-  font-size: 25px;
-  margin-top: 15px;
-  background-color: #13151D;
 }
 
-.div--button {
+.question--button2-content {
   background-color: #13151D;
+  color: white;
+  font-size: 30px;
+  width: 80%;
+  padding: 30px;
+  margin: 0px auto;
+  height: 100%;
 }
+
+
+
+
+
+
 
 .movies--example-main-container {
   background-color: #040714;
@@ -541,6 +585,10 @@
           
           #lion--king-parrafo {
             font-size: 12px;
+          }
+
+          .footer-pagin-services {
+            gap: 20px
           }
 
         }
@@ -885,61 +933,119 @@
 </div>
 
     <div class="wrapper">
-    <section>
+
+      <section>
     
-        <div class="questions--container">
-            
-          <h1 class="questions--title">Preguntas Frecuentes</h1>
+        <div class="questions--main-container">
           
-          <div class="questions--buttons">
+          <h1 class="questions--container-title">Preguntas Frecuentes</h1>
+          
+          <div class="questions--buttons-container">
             
-            <div class="questions--button1">
-              <button class="button--questions1">
-               
-                <div class="div--button">
-     <h1 class="text--button1">¿Qué incluye Disney+?</h1>
-                </div>
-                <div class="div--button">
-             <h1 class="text--button1-2">+</h1>
-                </div>
-              </button>
+            <div class="questions--buttons">
+              <label for="questions--button1"> 
+                <div class="question--button-text">
+                ¿Qué incluye Disney+? <span class="questions--button-sign">+</span></div>
+              </label>
+          <input type="checkbox" id="questions--button1">
+            
+            
+            <div class="questions--button-content">
               
-              <div class="questions--button1">
-                <button class="button--questions1">
-                  <div class="div--button">
-                  <h1 class="text--button1">¿Ya tienes Disney+ o Star+ y quieres Combo+?</h1>
-                  </div>
-                  <div class="div--button">
-            <h1 class="text--button1-2">+</h1>
-                  </div>
-                </button>
+              <h5>Beneficios de la suscripción a Disney+:</h5>
+              
+         <ul>
+                
+                <li class="questions--button-list-content">Experiencia de entretenimiento exclusiva.</li>
+                <li class="questions--button-list-content">Las mejores historias de Disney, Pixar, Marvel, Star Wars y National Geographic, todo en un mismo lugar.</li>
+                <li class="questions--button-list-content">Groupwatch: comparte tus historias favoritas, aunque estés lejos.</li>
+                <li class="questions--button-list-content">Descargas ilimitadas hasta en diez dispositivos compatibles.</li>
+                <li class="questions--button-list-content">Más de 300 títulos en 4K UHD y HDR.
+       
+       </li>
+                <li class="questions--button-list-content">Hasta cuatro pantallas a la vez: ¡disfrutan todos!</li>
+                <li class="questions--button-list-content">IMAX Enhanced: disponible en algunos títulos de Marvel y en todos los dispositivos compatibles con Disney+.</li>    
+              </ul>
+            </div>
               </div>
+            
+            
+            
+            
+            
+            
+            <div class="questions--buttons">
+              <label for="questions--button2"><div class="question--button-text">¿Ya tienes Disney+ o Star+ y quieres Combo+? <span class="questions--button-sign">+</span></div>
+                <input type="checkbox" id="questions--button2">
+              </label>
+            
+            
+            <div class="questions--button-content">
+              <h5>Con Combo+:</h5>
               
-                        <div class="questions--button1">
-                <button class="button--questions1">
-                  <div class="div--button">
-                  <h1 class="text--button1">¿Cómo puedo pagar?</h1>
-                  </div>
-                  <div class="div--button">
-            <h1 class="text--button1-2">+</h1>
-                  </div>
-                </button>
+              <ul>
+                
+                <li class="questions--button-list-content">Descontaremos el valor de tu suscripción actual del precio de Combo+. (¡Sí, para el plan anual también!).</li>
+                
+       <li class="questions--button-list-content">Si tienes una suscripción mensual, el valor que pagas mensualmente se descontará del precio final de Combo+.</li>
+                
+       <li class="questions--button-list-content">Si tienes una suscripción anual, dividiremos el precio que pagaste en 12 partes iguales y descontaremos ese precio mensualmente del precio final de Combo+.</li>
+                
+       <li class="questions--button-list-content">
+         Te llegará un correo electrónico con el detalle de los cargos apenas confirmes el pago.
+       </li>
+                
+       <li class="questions--button-list-content">
+         Recuerda que puedes cancelar en cualquier momento.
+       </li>
+                
+       <li class="questions--button-list-content">
+         La suscripción a Combo+ es únicamente mensual, por el momento.
+       </li>
+              </ul>
+            </div>
               </div>
+            
+            
+            
+            
+            
+            <div class="questions--buttons">
+              <label for="questions--button3">
+               <div class="question--button-text">
+                 ¿Cómo puedo pagar? <span class="questions--button-sign">+</span>
+               </div><input type="checkbox" id="questions--button3">
+              </label>
               
-                   <div class="questions--button1">
-                <button class="button--questions1">
-                  <div class="div--button">
-                  <h1 class="text--button1">¿Cómo puedo ver el contenido 16+ y 18+?</h1>
-                  </div>
-                  <div class="div--button">
-            <h1 class="text--button1-2">+</h1>
-                  </div>
-                </button>
+              <div class="questions--button-content">
+                <p class="questions--button-list-content">Puedes pagar con tarjeta de crédito, débito, Mercado Pago, PayPal o también a través de terceros, como Google Play Store, App Store de Apple, Mercado Libre y proveedores locales de TV, telefonía e internet.</p>
               </div>
             </div>
+            
+            
+            
+            <div class="questions--buttons">
+              <label for="questions--button4">
+           <div class="question--button-text">
+             ¿Cómo puedo ver el contenido 16+ y 18+? <span class="questions--button-sign">+</span>
+           </div>
+              </label>
+       <input type="checkbox" id="questions--button4">
+            
+            
+            <div class="questions--button-content">
+              <p class="questions--button-list-content">Con una suscripción a Disney+ en Latinoamérica, tienes que actualizar los controles parentales de tu perfil para acceder al catálogo completo que incluye contenido 16+ y 18+. Puedes restringir el contenido así como agregar un PIN de bloqueo en cada perfil. También puedes dejar los controles parentales como están y seguir disfrutando Disney+ en un ambiente 14+ con la opción de modificarlos cuando quieras en Editar perfiles.</p>
             </div>
+              </div>
+            
           </div>
-      </section>
+          
+        </div>
+           
+           
+           
+         </section>
+
     </div>
 
     <div class="wrapper">
