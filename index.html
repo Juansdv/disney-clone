@@ -256,18 +256,18 @@
   justify-content: space-between;
   font-weight: bold;
   cursor:pointer;
-  background-color: transparent;
+  background: transparent;
 }
 
 .questions--button-sign {
   font-weight: bold;
   font-size: 38px;
-  background-color: transparent;
+  background: transparent
 }
 
 
 .questions--button-content {
-  background-color: #13151D;
+  background-color: #13151D ;
   color: white;
   font-size: 30px;
   width: 80%;
@@ -275,12 +275,13 @@
   margin: 0px auto;
   height: 100%;
   display: none;
-
+  transition: 0.5s;
 }
 
 .questions--button-list-content {
   font-size: 22px;
   margin: 20px;
+  background-color: transparent;
 }
 
 .question--button2-content {
@@ -293,7 +294,17 @@
   height: 100%;
 }
 
+.questions--content-text {
+  background-color: #13151D;
+}
 
+#questions--button1:checked + .questions--button-content ,
+#questions--button2:checked + .questions--button-content ,
+#questions--button3:checked + .questions--button-content ,
+#questions--button4:checked + .questions--button-content
+{
+  display:block
+}
 
 
 
@@ -952,9 +963,9 @@
             
             <div class="questions--button-content">
               
-              <h5>Beneficios de la suscripción a Disney+:</h5>
+              <h5 class="questions--content-text">Beneficios de la suscripción a Disney+:</h5>
               
-         <ul>
+         <ul class="questions--content-text">
                 
                 <li class="questions--button-list-content">Experiencia de entretenimiento exclusiva.</li>
                 <li class="questions--button-list-content">Las mejores historias de Disney, Pixar, Marvel, Star Wars y National Geographic, todo en un mismo lugar.</li>
@@ -975,15 +986,15 @@
             
             
             <div class="questions--buttons">
-              <label for="questions--button2"><div class="question--button-text">¿Ya tienes Disney+ o Star+ y quieres Combo+? <span class="questions--button-sign">+</span></div>
+              <label for="questions--button2"><div class="question--button-text">¿Ya tienes Disney+ o Star+ y quieres Combo+? <span class="questions--button-sign">+</span></div></label>
                 <input type="checkbox" id="questions--button2">
-              </label>
+              
             
             
             <div class="questions--button-content">
-              <h5>Con Combo+:</h5>
+              <h5 class="questions--content-text">Con Combo+:</h5>
               
-              <ul>
+              <ul class="questions--content-text">
                 
                 <li class="questions--button-list-content">Descontaremos el valor de tu suscripción actual del precio de Combo+. (¡Sí, para el plan anual también!).</li>
                 
@@ -1013,9 +1024,9 @@
             <div class="questions--buttons">
               <label for="questions--button3">
                <div class="question--button-text">
-                 ¿Cómo puedo pagar? <span class="questions--button-sign">+</span>
-               </div><input type="checkbox" id="questions--button3">
-              </label>
+                 ¿Cómo puedo pagar? <span class="questions--button-sign">+</span></div></label>
+                 <input type="checkbox" id="questions--button3">
+              
               
               <div class="questions--button-content">
                 <p class="questions--button-list-content">Puedes pagar con tarjeta de crédito, débito, Mercado Pago, PayPal o también a través de terceros, como Google Play Store, App Store de Apple, Mercado Libre y proveedores locales de TV, telefonía e internet.</p>
