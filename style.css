@@ -1,0 +1,682 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sofia Sans', sans-serif;
+    background-color: #040714;
+}
+
+  /* Seccion Header */
+
+.header {}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+.header--nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 78px;
+    background-color: #040714
+}
+
+.header--nav-img {
+    width: 100px;
+    height: 50px;
+}
+
+.button-login {
+    height: 50px;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+.header--nav-btn1 {
+    background-color: #0062e5;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.header--nav-btn2 {
+    background-color: #000;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.header--nav-btn2:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+.section--container {
+    text-align: center;
+    background-color: #040714;
+    color: white;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: 40px
+}
+
+
+/*  Seccion plan de compra */
+
+.plans--container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan1--container {
+    padding: 20px;
+}
+
+.plan--img {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.plan--price {
+    margin-bottom: 20px
+}
+
+.plan--subtitle {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 30px
+}
+
+.plan2--container {
+    padding: 20px;
+}
+
+.plan3--container {
+    padding: 20px;
+    margin-top: 14px
+}
+
+.plan--btn {
+    background-color: #6421ff;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 8px
+}
+
+
+/*   Seccion difrentes servicios */
+
+
+.main--container {
+    margin-top: 50px;
+    height: 100%;
+    Text-align: center;
+    background-color: #040714;
+    color: white;
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+
+.devices--container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.device1--container {
+
+    font-weight: bold;
+}
+
+.device2--container {
+
+    font-weight: bold;
+}
+
+.device3--container {
+    font-weight: bold;
+}
+
+.device4--container {
+    font-weight: bold;
+}
+
+.device1--img {
+    width: 250px;
+}
+
+.device2--img {
+    width: 250px;
+}
+
+.device3--img {
+    width: 250px;
+}
+
+.device4--img {
+    width: 250px;
+}
+
+.device--title {
+    margin-bottom: 20px;
+}
+
+.device--tipe {
+    margin-bottom: 10px;
+}
+
+
+
+/* Seccion imagen de ejemplo */
+
+.example--page {
+    display: flex;
+    justify-content: space-around;
+    background-color: #040714;
+    color: white;
+}
+
+.view--title {
+    font-size: 32px;
+    margin-top: 80px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.view--text {
+    margin-top: 80px;
+    font-size: 25px;
+    margin-left: 110px;
+    font-weight: bold;
+}
+
+.view--text {
+    width: 70%;
+    font-size: 21px;
+}
+
+.image--view {
+    width: 600px;
+}
+
+
+  /* FAQ Seccion */
+
+
+
+.questions--main-container{
+background-color: #040714;
+}
+
+.questions--container-title {
+font-weight: bold;
+font-size: 35px;
+text-align: center;
+color: white;
+margin-top: 100px;
+}
+
+.questions--buttons-container {
+display:block;
+}
+
+.questions--buttons {
+background-color: #13151D;
+color: white;
+font-size: 30px;
+padding: 30px;
+width: 80%;
+margin: 40px auto;
+cursor: pointer;
+}
+
+
+
+
+#questions--button1 , #questions--button2 , #questions--button3 , #questions--button4 {
+cursor: pointer;
+display: none;
+}
+
+.question--button-text {
+display:flex;
+justify-content: space-between;
+font-weight: bold;
+cursor:pointer;
+background: transparent;
+}
+
+.questions--button-sign {
+font-weight: bold;
+font-size: 38px;
+background: transparent
+}
+
+
+.questions--button-content {
+background-color: #13151D ;
+color: white;
+font-size: 30px;
+width: 80%;
+padding: 30px;
+margin: 0px auto;
+height: 100%;
+display: none;
+}
+
+.questions--button-list-content {
+font-size: 22px;
+margin: 20px;
+background-color: transparent;
+}
+
+.question--button2-content {
+background-color: #13151D;
+color: white;
+font-size: 30px;
+width: 80%;
+padding: 30px;
+margin: 0px auto;
+height: 100%;
+}
+
+.questions--content-text {
+background-color: #13151D;
+}
+
+#questions--button1:checked + .questions--button-content ,
+#questions--button2:checked + .questions--button-content ,
+#questions--button3:checked + .questions--button-content ,
+#questions--button4:checked + .questions--button-content
+{
+display:block
+}
+
+
+
+/* Seccion peliculas de ejemplo */
+
+.movies--example-main-container {
+background-color: #040714;
+color: white;
+margin-top: 150px
+}
+
+.movies--example-container-text {
+text-align: center;
+font-size: 25px;
+}
+
+.movies--example-img-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.movies--example-movies-container{
+width: 320px;
+margin: 10px auto;
+}
+
+
+.movies--example-imgs {
+width: 100%;
+border-radius: 10px;
+}
+
+
+/* Seccion peliculas memorables */
+
+.memorial--films-container {
+display: grid;
+grid-template-columns: 50% 50% ;
+width: 100%;
+margin: 0px auto;
+margin-bottom: 120px;
+background-color: #040814;
+color: white;
+
+}
+
+.memorial--films-plan {
+margin-top: 70px
+}
+
+#memorial--films-plan-main-logo {
+width: 40%;
+display: flex;
+margin: 0px auto;
+}
+
+#memorial--films-logo-text {
+width: 80%;
+display: flex;
+text-align: center;
+margin: 30px auto;
+font-size: 30px;
+margin-bottom: 35px;
+font-weight: bold;
+}
+
+.memorial--films-plan-logos {
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+#memorial--films-plan-logo {
+width: 45%
+}
+
+.memorial--films-plan-buttons {
+width: 100%;
+display: flex;
+justify-content: space-around;
+height: 60px;
+margin-top: 15px;
+}
+
+#memorial--films-buttons {
+width: 40%;
+background-color: #6421FF;
+color: white;
+border-radius: 10px;
+font-weight: bold;
+font-size: 18px;
+}
+
+.memorial--all-films {
+border: 1px solid black;
+border-top-style: none;
+border-bottom-style: none;
+}
+
+.memorial--all-films-container {
+display: flex;
+}
+
+#memorial--film5 {
+width: 120px;
+height: 100%;
+}
+
+
+/* Seccion Rey Leon*/
+
+.lion--king-container {
+width: 100%;
+color: white;
+
+}
+
+.lion--king-text {
+position: relative;
+bottom: 420px;
+width: 60%;
+left: 500px;
+background-color: transparent;
+
+}
+
+
+#lion--king-img {
+width: 110% ;
+margin-top: 150px;
+}
+
+
+#lion--king-title {
+font-size: 40px;
+font-weight: bold;
+background-color: transparent;
+}
+
+#lion--king-parrafo {
+font-size: 20px;
+width: 75%;
+background-color: transparent;
+margin-top: 25px;
+}
+
+#lion--king-second-img {
+display:none;
+width: 90%;
+margin: 0px auto;
+}
+
+
+/* Footer */
+
+.footer {
+background-color: #040714;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+.footer-img-container {
+text-align: center;
+}
+
+#footer-img {
+width: 10%;
+}
+
+.footer-pagin-services {
+margin-top: 25px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.services-text {
+text-decoration: none;
+color: #D2CFD4;
+font-weight: bold;
+font-size: 14px;
+}
+
+.button-services {
+background-color: #040714;
+color: #D2CFD4;
+border: none;
+}
+
+.disney-details-container {
+margin-top: 30px;
+text-align: center;
+}
+
+.policy-text:hover {
+color: white;
+}
+
+.button-footer:hover {
+text-decoration: underline;
+}
+
+
+
+      /* Media Query*/
+      
+
+@media screen and (max-width: 375px) {
+    .header--nav-btn1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .header--nav-btn1 {
+        display: none;
+    }
+
+    .plans--container {
+        display: block;
+    }
+
+    .devices--container {
+        display: block;
+    }
+
+    .example--page {
+        display:block
+    }
+
+    .image--view {
+        width: 100%;
+    }
+
+    .view--text {
+        width: 85% ;
+        margin-left: 30px;
+    }
+
+    .view--title {
+        display: block;
+    }
+
+    }
+
+
+           @media screen and (max-width: 760px) {
+
+        .div--button{
+            width: 60px;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+        }
+
+        .text--button1 {
+            font-size: 13px;
+            display: block;
+            width: 100px;
+            height: 10px;
+            margin-right: 20px;
+            text-align: left;
+        }
+
+
+        .text--button1-2{
+            margin-left: 30px;
+        }
+
+        }
+
+        @media screen and (max-width: 990px) {
+            
+
+    }
+
+
+    @media screen and (max-width: 640px){
+
+      .movies--example-movies-container{
+        width: 180px
+      }
+
+
+    }
+      
+    @media screen and (max-width: 865px) {
+
+      .lion--king-text {
+      translate: -130%;
+      width: 30%;
+      bottom: 260px;
+      left: 900px;
+      padding-left: 900px;
+              }
+
+      #lion--king-title {
+        font-size: 20px;
+      }
+      
+      #lion--king-parrafo {
+        font-size: 12px;
+      }
+
+      .footer-pagin-services {
+        gap: 20px
+      }
+
+    }
+
+      @media screen and (max-width: 530px) {
+
+      #lion--king-img {
+        width: 100%;
+      }
+
+      .lion--king-text{
+      top: 30px;
+      width: 80%;
+      padding-right: 60px;
+      left: 0px;
+      padding-left: 0px;
+      translate:none;
+    }
+      
+    #lion--king-title {
+      font-size: 30px;
+      width: 90%;
+      margin: 0px auto;
+      margin-bottom: 20px;
+    }  
+
+    #lion--king-parrafo {
+      font-size: 18px;
+      width: 80%;
+      margin: 0px auto;
+    }
+
+    #lion--king-img {
+      display:none;
+    }
+
+    #lion--king-second-img {
+      display:block;
+    }
+
+      }
+        
+
+      @media screen and (max-width: 1025px) {
+
+        .memorial--films-container {
+          grid-template-columns: none;
+          grid-template-rows: 50% 50%;
+         }
+
+         .memorial--films-plan {
+          margin-top: 350px;
+         }
+
+         .memorial--all-films-container {
+          position: absolute;
+         }
+
+         .memorial--all-films {
+          height: 300px;
+         }
+
+         #memorial--films-img {
+          width: 78px;
+         }
+
+
+      }
+        
+      
+      
