@@ -416,14 +416,14 @@ height: 100%;
 .lion--king-container {
 width: 100%;
 color: white;
-
+position: relative
 }
 
 .lion--king-text {
-position: relative;
-bottom: 420px;
+position: absolute;
+bottom: 30%;
 width: 60%;
-left: 500px;
+left: 50%;
 background-color: transparent;
 
 }
@@ -592,19 +592,15 @@ text-decoration: underline;
     @media screen and (max-width: 865px) {
 
       .lion--king-text {
-      translate: -130%;
-      width: 30%;
-      bottom: 260px;
-      left: 900px;
-      padding-left: 900px;
+      bottom: 160px;
               }
 
       #lion--king-title {
-        font-size: 20px;
+        font-size: 30px;
       }
       
       #lion--king-parrafo {
-        font-size: 12px;
+        font-size: 15px;
       }
 
       .footer-pagin-services {
@@ -620,12 +616,8 @@ text-decoration: underline;
       }
 
       .lion--king-text{
-      top: 30px;
-      width: 80%;
-      padding-right: 60px;
-      left: 0px;
-      padding-left: 0px;
-      translate:none;
+    position: initial;
+    width: 80%;
     }
       
     #lion--king-title {
