@@ -103,10 +103,12 @@
 .plan--btn {
     background-color: #6421ff;
     color: white;
-    padding: 20px;
+    padding: 0px 20px;
     width: 100%;
     border: none;
-    border-radius: 8px
+    border-radius: 8px;
+    height: 50px;
+    font-weight: bold;
 }
 
 
@@ -402,7 +404,8 @@ border-bottom-style: none;
 }
 
 .memorial--all-films-container {
-display: flex;
+display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 #memorial--film5 {
