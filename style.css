@@ -321,8 +321,10 @@ font-size: 25px;
 }
 
 .movies--example-img-container {
-display: flex;
-flex-wrap: wrap;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+gap: 20px;
 }
 
 .movies--example-movies-container{
@@ -646,6 +648,11 @@ text-decoration: underline;
 
     #lion--king-second-img {
       display:block;
+    }
+
+    .movies--example-img-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 
       }
