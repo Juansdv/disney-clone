@@ -134,6 +134,7 @@
 .devices--container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .device1--container {
@@ -237,7 +238,7 @@ display:block;
 background-color: #13151D;
 color: white;
 font-size: 30px;
-padding: 30px;
+padding: 13px;
 width: 80%;
 margin: 40px auto;
 cursor: pointer;
@@ -343,7 +344,7 @@ border-radius: 10px;
 
 .memorial--films-container {
 display: grid;
-grid-template-columns: 50% 50% ;
+grid-template-columns: 49% 50% ;
 width: 100%;
 margin: 0px auto;
 margin-bottom: 120px;
@@ -514,12 +515,18 @@ text-decoration: underline;
 
       /* Media Query*/
       
+      
+
+            /* Media Query 375px */
 
 @media screen and (max-width: 375px) {
     .header--nav-btn1 {
         display: none;
     }
 }
+
+
+            /* Media Query 601px */
 
 @media screen and (max-width: 601px) {
     .header--nav-btn1 {
@@ -531,7 +538,8 @@ text-decoration: underline;
     }
 
     .devices--container {
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .example--page {
@@ -553,6 +561,9 @@ text-decoration: underline;
 
     }
 
+
+
+                /* Media Query 760px */
 
            @media screen and (max-width: 760px) {
 
@@ -580,14 +591,22 @@ text-decoration: underline;
 
         }
 
+
+
+                    /* Media Query 990px */
+
         @media screen and (max-width: 990px) {
             
             .memorial--films-plan {
                 order: 1
             }
 
+
     }
 
+
+
+                /* Media Query 640px */
 
     @media screen and (max-width: 640px){
 
@@ -597,6 +616,10 @@ text-decoration: underline;
 
 
     }
+
+
+
+    /* Media Query 865px */
       
     @media screen and (max-width: 865px) {
 
@@ -616,7 +639,15 @@ text-decoration: underline;
         gap: 20px
       }
 
+      .example--page {
+        flex-wrap: wrap;
     }
+
+
+    }
+    
+
+              /* Media Query 530px */
 
       @media screen and (max-width: 530px) {
 
@@ -655,8 +686,15 @@ text-decoration: underline;
         grid-template-rows: repeat(4, 1fr);
     }
 
+    .questions--buttons{
+        font-size: 22px;
+    }
+
       }
         
+
+
+                /* Media Query 1025px */
 
       @media screen and (max-width: 1025px) {
 
