@@ -1,0 +1,213 @@
+* {
+font-family: 'Sofia Sans', sans-serif;
+margin: 0px;
+padding: 0px;
+}
+
+.main--container {
+    background-color: #1A1D29;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+.nav--container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+
+}
+.nav--img {
+    width: 25vh;
+}
+
+.login--nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.login--nav {
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.content-signup-container {
+    color: white;
+    margin: 70px auto;
+    width: 50%;
+}
+
+.parrafo-signup-steps {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.parrafo-signup-email {
+    width: 65%;
+    margin: 10px 0px;
+}
+
+.input-signup {
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 60%;
+    height: 25px;
+    border-radius: 10px;
+    background-color:#30333E ;
+}
+
+::placeholder {
+    color: white;
+}
+
+.input-check-container {
+    display: flex;
+}
+
+#check-button {
+    width: 25px;
+}
+
+.input-check-container p  {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 50%;
+    font-size: 13px;
+}
+
+.terms {
+    width: 50%;
+    margin: 0px auto; 
+    overflow: auto;
+}
+
+.terms p {
+    width: 70%;
+    background-color: #30333E ;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    height: 250px;
+    height: auto;
+    margin: 0px 0px 50px 0px;
+}
+
+.button-next {
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: #0082F0;
+    width: 90%;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: #0E0B14;
+}
+
+.footer {
+    background-color: #0E0B14;
+    }
+    
+    .footer-img-container {
+    text-align: center;
+    }
+    
+    #footer-img {
+    width: 10%;
+    margin-top: 50px;
+    }
+    
+    .footer-pagin-services {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    
+    .services-text {
+    text-decoration: none;
+    color: #D2CFD4;
+    font-weight: bold;
+    font-size: 14px;
+    }
+    
+    .button-services {
+    background-color: #040714;
+    color: #D2CFD4;
+    border: none;
+    }
+    
+    .disney-details-container {
+    margin-top: 30px;
+    text-align: center;
+    }
+    
+    .policy-text:hover {
+    color: white;
+    }
+    
+    .button-footer:hover {
+    text-decoration: underline;
+    }
+
+    /*  Media Querys */
+
+
+    @media screen and (max-width: 375px) {
+
+
+        .content-signup-container {
+            width: 100%;
+            margin: 50px 20px;
+            max-width: 350px;
+        }
+
+        .parrafo-signup-email {
+            width: auto;
+            max-width: 374px;
+        }
+
+        .input-signup {
+            width: 90%;
+        }
+
+        .input-check-container p {
+            width: 100%;
+        }
+
+        .terms {
+            width: 90%;
+        }
+
+        .terms p {
+            width: inherit;
+        }
+
+        #footer-img {
+            width: 30%;
+        }
+
+        .footer-pagin-services {
+            gap: 20px;
+        }
+
+        .button-next {
+            width: inherit;
+        }
+
+    }
+        
