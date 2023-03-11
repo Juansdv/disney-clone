@@ -133,8 +133,6 @@
 
 .devices--container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .device1--container {
@@ -514,6 +512,46 @@ text-decoration: underline;
 
       /* Media Query*/
       
+
+ /* Media Query 1025px */
+
+@media screen and (max-width: 1025px) {
+
+.memorial--films-container {
+grid-template-columns: none;
+}
+                
+.memorial--films-plan {
+                          
+}
+                
+.memorial--all-films-container {
+}
+                
+.memorial--all-films {
+height: fit-content;
+ justify-items: stretch;
+ width: inherit;
+ }
+                
+                        
+#memorial--all-films-, #memorial--films-img {
+width: 98%;
+ }
+                
+                
+#memorial--films-img {
+width: inherit;
+}
+                
+.devices--container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+ }
+                
+                
+}
       
 
             /* Media Query 375px */
@@ -536,10 +574,6 @@ text-decoration: underline;
         display: block;
     }
 
-    .devices--container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     .example--page {
         display:block
@@ -552,6 +586,7 @@ text-decoration: underline;
     .view--text {
         width: 85% ;
         margin-left: 30px;
+        text-align: center;
     }
 
     .view--title {
@@ -586,15 +621,6 @@ text-decoration: underline;
 
         .text--button1-2{
             margin-left: 30px;
-        }
-
-
-        .device2--img, .device4--img{
-            width: inherit;
-        }
-
-        .device2--container, .device4--container {
-            width: 40vw;
         }
 
 
@@ -666,19 +692,22 @@ text-decoration: underline;
 
       .lion--king-text{
     position: initial;
-    width: 80%;
+    width: 100%;
+    margin: 20px auto;
     }
       
     #lion--king-title {
       font-size: 30px;
-      width: 90%;
+      width: 100%;
       margin: 0px auto;
+       text-align: center;
       margin-bottom: 20px;
     }  
 
     #lion--king-parrafo {
       font-size: 18px;
-      width: 80%;
+      width: 100%;
+      text-align: center;
       margin: 0px auto;
     }
 
@@ -699,44 +728,17 @@ text-decoration: underline;
         font-size: 22px;
     }
 
+    .devices--container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
       }
         
 
 
-                /* Media Query 1025px */
 
-      @media screen and (max-width: 1025px) {
-
-        .memorial--films-container {
-          grid-template-columns: none;
-         }
-
-         .memorial--films-plan {
-          
-         }
-
-         .memorial--all-films-container {
-          
-         }
-
-         .memorial--all-films {
-          height: fit-content;
-          justify-items: stretch;
-          width: inherit;
-         }
-
-        
-         #memorial--all-films-, #memorial--films-img {
-            width: 98%;
-         }
-
-
-         #memorial--films-img {
-          width: inherit;
-         }
-
-
-      }
         
       
       
