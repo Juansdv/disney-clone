@@ -72,49 +72,120 @@
 
 /*  Seccion plan de compra */
 
-.plans--container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.plan1--container {
-    padding: 20px;
-}
-
-.plan--img {
-    width: 200px;
-    margin-bottom: 30px;
-}
-
-.plan--price {
-    margin-bottom: 20px
-}
-
-.plan--subtitle {
-    font-size: 24px;
+.plan-main-container{
+    margin-bottom: 150px;
+    text-align: center;
     color: white;
-    margin-bottom: 30px
+    font-size: 25px;
 }
 
-.plan2--container {
-    padding: 20px;
+.plan-main-container p{
+    color: #C0C0C0;
+    margin-top: 25px;
+    font-size: 22px;
 }
 
-.plan3--container {
-    padding: 20px;
-    margin-top: 14px
-}
 
-.plan--btn {
+
+.plan-btn{
     background-color: #6421ff;
     color: white;
     padding: 0px 20px;
-    width: 100%;
+    width: 80%;
     border: none;
     border-radius: 8px;
     height: 50px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
+
+
+.plan-title{
+    margin-bottom: 100px;
+}
+
+.container-precios-planes{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: sticky;
+    top: 0;
+}
+
+.container-precios-planes span{
+    display: grid;
+    grid-column: 1/2;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.lista-planes{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: 2/5;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #3D3F48;
+
+}
+
+.container-combo, .container-combo p, .container-combo img{
+    background-color: #1D1F2B;
+}
+
+
+.lista-planes div{
+    display: grid;
+    place-items: center;
+}
+
+.subcontainer-img{
+    width: 10vw;
+    margin: 20px;
+}
+
+#subcontainer-title3{
+    width: min-content;
+}
+
+.container-diferencias{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.container-column1, .container-column2, .container-column3, .container-column4,
+.container-column5, .container-column6, .container-column7, .container-column8{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-column: 1/5;
+place-items: center;
+border-bottom: 1px solid #3D3F48;
+}
+
+
+
+.container-column1 span, .container-column2 span, .container-column3 span,
+.container-column4 span, .container-column5 span, .container-column6 span,
+.container-column7 span, .container-column8 span
+{
+    text-align: left;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.container-column1 div, .container-column2 div, .container-column3 div,
+.container-column4 div, .container-column5 div, .container-column6 div,
+.container-column7 div, .container-column8 div{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #1D1F2B;
+}
+
+#column-sign{
+    font-size: 4.5rem;
+    color: #3D3F48;
+}
+
 
 
 /*   Seccion difrentes servicios */
@@ -349,7 +420,6 @@ margin: 0px auto;
 margin-bottom: 120px;
 background-color: #040814;
 color: white;
-
 }
 
 .memorial--films-plan {
@@ -362,7 +432,7 @@ display: flex;
 margin: 0px auto;
 }
 
-#memorial--films-logo-text {
+ #memorial--films-logo-text {
 width: 80%;
 display: flex;
 text-align: center;
@@ -372,15 +442,18 @@ margin-bottom: 35px;
 font-weight: bold;
 }
 
+
 .memorial--films-plan-logos {
 display: flex;
 justify-content: space-around;
 width: 100%;
 }
 
+
+
 #memorial--films-plan-logo {
 width: 45%
-}
+} 
 
 .memorial--films-plan-buttons {
 width: 100%;
