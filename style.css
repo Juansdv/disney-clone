@@ -699,6 +699,36 @@ grid-template-rows: repeat(2, 1fr);
             margin-left: 30px;
         }
 
+        .container-precios-planes span {
+            display: none;
+        }
+
+        .lista-planes{
+            grid-column: 1/5;
+        }
+
+        .container-column1, .container-column2, .container-column3, .container-column4,
+        .container-column5, .container-column6, .container-column7, .container-column8{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+        }
+
+
+        .container-column1 span:nth-child(1), .container-column2 span:nth-child(1), 
+        .container-column3 span:nth-child(1), .container-column4 span:nth-child(1),
+        .container-column4 span:nth-child(1), .container-column5 span:nth-child(1),
+        .container-column6 span:nth-child(1), .container-column7 span:nth-child(1),
+        .container-column8 span:nth-child(1){
+            grid-column: 1/5;
+            text-align: center;
+        }
+
+        .container-column1 div, .container-column2 div, .container-column3 div,
+        .container-column4 div, .container-column5 div, .container-column6 div,
+        .container-column7 div, .container-column8 div{
+        background-color: transparent;
+}
+
 
         }
 
