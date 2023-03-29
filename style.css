@@ -444,33 +444,11 @@ font-weight: bold;
 
 
 .memorial--films-plan-logos {
-display: flex;
-justify-content: space-around;
-width: 100%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
 }
 
 
-
-#memorial--films-plan-logo {
-width: 45%
-} 
-
-.memorial--films-plan-buttons {
-width: 100%;
-display: flex;
-justify-content: space-around;
-height: 60px;
-margin-top: 15px;
-}
-
-#memorial--films-buttons {
-width: 40%;
-background-color: #6421FF;
-color: white;
-border-radius: 10px;
-font-weight: bold;
-font-size: 18px;
-}
 
 .memorial--all-films {
 border: 1px solid black;
@@ -489,6 +467,16 @@ width: 120px;
 height: 100%;
 }
 
+
+.plan--1, .plan--2{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.plan--1 img, .plan--2 img{
+    width: 100%;
+}
 
 /* Seccion Rey Leon*/
 
@@ -729,6 +717,15 @@ grid-template-rows: repeat(2, 1fr);
         background-color: transparent;
 }
 
+
+.memorial--films-plan-logos{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.plan--1 img, .plan--2 img{
+    width: 70%;
+}
 
         }
 
